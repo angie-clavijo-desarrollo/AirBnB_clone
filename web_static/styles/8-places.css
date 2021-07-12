@@ -3,6 +3,7 @@
     border: #FF5A5F solid 4px;
     border-radius: 50%;
     min-width: 60px;
+    width: 60px;
     height: 60px;
     font-size: 30px;
     align-items: center;
@@ -19,6 +20,15 @@
     display: flex;
     justify-content: center;
     justify-items: center;
+}
+
+.information div{
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
 }
 
 .max_guest{
